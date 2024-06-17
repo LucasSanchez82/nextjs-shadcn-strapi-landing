@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_features_feature_cards",
+  "info": {
+    "displayName": "feature-card",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "svg": {
+      "type": "enumeration",
+      "enum": [
+        "blank",
+        "nextjs",
+        "shadcnUi",
+        "vercel",
+        "fileSearch",
+        "barChart",
+        "settings",
+        "moon",
+        "sun",
+        "back",
+        "next",
+        "up",
+        "down",
+        "close",
+        "trash",
+        "spinner",
+        "userAlt",
+        "ellipsis",
+        "warning",
+        "add",
+        "history",
+        "signout",
+        "calendar",
+        "sort",
+        "fire",
+        "statsBar",
+        "mixer",
+        "check"
+      ],
+      "default": "blank"
+    }
+  }
+}

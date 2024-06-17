@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_link_relative_links",
+  "info": {
+    "displayName": "relative-link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "libelle": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    },
+    "link": {
+      "type": "string",
+      "regex": "^/[^/]+(?:/[^/]+)*$",
+      "required": true
+    }
+  }
+}

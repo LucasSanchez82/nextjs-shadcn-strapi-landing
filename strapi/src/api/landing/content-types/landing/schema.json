@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landings",
+  "info": {
+    "singularName": "landing",
+    "pluralName": "landings",
+    "displayName": "landing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "minLength": 5,
+      "required": false
+    },
+    "main_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.relative-link",
+      "required": true
+    },
+    "banner": {
+      "displayName": "poweredBy",
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.powered-by",
+      "required": true
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": false,
+      "component": "features.features",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image_principal": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_main_buttons",
+  "info": {
+    "displayName": "main-button",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "regex": "(?:href|src)\\s*=\\s*[\"']((?!http|https|ftp|mailto)[^\"']+)[\"']"
+    }
+  }
+}

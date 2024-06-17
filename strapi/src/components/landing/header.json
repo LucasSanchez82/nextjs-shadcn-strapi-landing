@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "main-button",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.main-button"
+    }
+  }
+}

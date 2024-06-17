@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_powered_by_powered_cards",
+  "info": {
+    "displayName": "banner-card",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "illustrate_icon": {
+      "type": "enumeration",
+      "enum": [
+        "blank",
+        "nextjs",
+        "shadcnUi",
+        "vercel",
+        "fileSearch",
+        "barChart",
+        "settings",
+        "moon",
+        "sun",
+        "back",
+        "next",
+        "up",
+        "down",
+        "close",
+        "trash",
+        "spinner",
+        "userAlt",
+        "ellipsis",
+        "warning",
+        "add",
+        "history",
+        "signout",
+        "calendar",
+        "sort",
+        "fire",
+        "statsBar",
+        "mixer",
+        "check"
+      ],
+      "default": "blank"
+    }
+  }
+}

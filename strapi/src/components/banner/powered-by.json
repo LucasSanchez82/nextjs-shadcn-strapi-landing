@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_powered_by_powered_bies",
+  "info": {
+    "displayName": "banner",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "banner_card": {
+      "displayName": "powered-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.powered-card"
+    }
+  }
+}

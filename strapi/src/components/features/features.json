@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_features_features",
+  "info": {
+    "displayName": "features",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "feature_card": {
+      "displayName": "feature-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.feature-card"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
